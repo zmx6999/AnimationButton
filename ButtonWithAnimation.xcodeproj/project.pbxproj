@@ -15,6 +15,8 @@
 		C41FDD291C9D462A00D1AA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41FDD271C9D462A00D1AA19 /* LaunchScreen.storyboard */; };
 		C41FDD341C9D462A00D1AA19 /* ButtonWithAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD331C9D462A00D1AA19 /* ButtonWithAnimationTests.m */; };
 		C41FDD3F1C9D462A00D1AA19 /* ButtonWithAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD3E1C9D462A00D1AA19 /* ButtonWithAnimationUITests.m */; };
+		C41FDD4E1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD4D1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m */; };
+		C41FDD521C9D7CB600D1AA19 /* IFSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD511C9D7CB600D1AA19 /* IFSButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C41FDD3A1C9D462A00D1AA19 /* ButtonWithAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonWithAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41FDD3E1C9D462A00D1AA19 /* ButtonWithAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonWithAnimationUITests.m; sourceTree = "<group>"; };
 		C41FDD401C9D462A00D1AA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41FDD4C1C9D46A200D1AA19 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		C41FDD4D1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		C41FDD501C9D7CB600D1AA19 /* IFSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSButton.h; sourceTree = "<group>"; };
+		C41FDD511C9D7CB600D1AA19 /* IFSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFSButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 		C41FDD181C9D462A00D1AA19 /* ButtonWithAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C41FDD4F1C9D46B900D1AA19 /* MMMaterialDesignSpinner */,
 				C41FDD1C1C9D462A00D1AA19 /* AppDelegate.h */,
 				C41FDD1D1C9D462A00D1AA19 /* AppDelegate.m */,
+				C41FDD501C9D7CB600D1AA19 /* IFSButton.h */,
+				C41FDD511C9D7CB600D1AA19 /* IFSButton.m */,
 				C41FDD1F1C9D462A00D1AA19 /* ViewController.h */,
 				C41FDD201C9D462A00D1AA19 /* ViewController.m */,
 				C41FDD221C9D462A00D1AA19 /* Main.storyboard */,
@@ -138,6 +147,15 @@
 				C41FDD401C9D462A00D1AA19 /* Info.plist */,
 			);
 			path = ButtonWithAnimationUITests;
+			sourceTree = "<group>";
+		};
+		C41FDD4F1C9D46B900D1AA19 /* MMMaterialDesignSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				C41FDD4C1C9D46A200D1AA19 /* MMMaterialDesignSpinner.h */,
+				C41FDD4D1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m */,
+			);
+			name = MMMaterialDesignSpinner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41FDD521C9D7CB600D1AA19 /* IFSButton.m in Sources */,
 				C41FDD211C9D462A00D1AA19 /* ViewController.m in Sources */,
 				C41FDD1E1C9D462A00D1AA19 /* AppDelegate.m in Sources */,
+				C41FDD4E1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m in Sources */,
 				C41FDD1B1C9D462A00D1AA19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +521,7 @@
 				C41FDD451C9D462A00D1AA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C41FDD461C9D462A00D1AA19 /* Build configuration list for PBXNativeTarget "ButtonWithAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +530,7 @@
 				C41FDD481C9D462A00D1AA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C41FDD491C9D462A00D1AA19 /* Build configuration list for PBXNativeTarget "ButtonWithAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +539,7 @@
 				C41FDD4B1C9D462A00D1AA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
