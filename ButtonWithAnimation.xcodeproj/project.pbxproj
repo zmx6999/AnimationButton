@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C400E5FC1C9E6F7000A18969 /* IFSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C400E5FB1C9E6F7000A18969 /* IFSButton.m */; };
 		C41FDD1B1C9D462A00D1AA19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD1A1C9D462A00D1AA19 /* main.m */; };
 		C41FDD1E1C9D462A00D1AA19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD1D1C9D462A00D1AA19 /* AppDelegate.m */; };
 		C41FDD211C9D462A00D1AA19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD201C9D462A00D1AA19 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		C41FDD341C9D462A00D1AA19 /* ButtonWithAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD331C9D462A00D1AA19 /* ButtonWithAnimationTests.m */; };
 		C41FDD3F1C9D462A00D1AA19 /* ButtonWithAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD3E1C9D462A00D1AA19 /* ButtonWithAnimationUITests.m */; };
 		C41FDD4E1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD4D1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m */; };
-		C41FDD521C9D7CB600D1AA19 /* IFSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDD511C9D7CB600D1AA19 /* IFSButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C400E5FA1C9E6F7000A18969 /* IFSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSButton.h; sourceTree = "<group>"; };
+		C400E5FB1C9E6F7000A18969 /* IFSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFSButton.m; sourceTree = "<group>"; };
 		C41FDD161C9D462A00D1AA19 /* ButtonWithAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonWithAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41FDD1A1C9D462A00D1AA19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C41FDD1C1C9D462A00D1AA19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		C41FDD401C9D462A00D1AA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41FDD4C1C9D46A200D1AA19 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
 		C41FDD4D1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
-		C41FDD501C9D7CB600D1AA19 /* IFSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSButton.h; sourceTree = "<group>"; };
-		C41FDD511C9D7CB600D1AA19 /* IFSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFSButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +110,11 @@
 				C41FDD4F1C9D46B900D1AA19 /* MMMaterialDesignSpinner */,
 				C41FDD1C1C9D462A00D1AA19 /* AppDelegate.h */,
 				C41FDD1D1C9D462A00D1AA19 /* AppDelegate.m */,
-				C41FDD501C9D7CB600D1AA19 /* IFSButton.h */,
-				C41FDD511C9D7CB600D1AA19 /* IFSButton.m */,
 				C41FDD1F1C9D462A00D1AA19 /* ViewController.h */,
 				C41FDD201C9D462A00D1AA19 /* ViewController.m */,
 				C41FDD221C9D462A00D1AA19 /* Main.storyboard */,
+				C400E5FA1C9E6F7000A18969 /* IFSButton.h */,
+				C400E5FB1C9E6F7000A18969 /* IFSButton.m */,
 				C41FDD251C9D462A00D1AA19 /* Assets.xcassets */,
 				C41FDD271C9D462A00D1AA19 /* LaunchScreen.storyboard */,
 				C41FDD2A1C9D462A00D1AA19 /* Info.plist */,
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41FDD521C9D7CB600D1AA19 /* IFSButton.m in Sources */,
+				C400E5FC1C9E6F7000A18969 /* IFSButton.m in Sources */,
 				C41FDD211C9D462A00D1AA19 /* ViewController.m in Sources */,
 				C41FDD1E1C9D462A00D1AA19 /* AppDelegate.m in Sources */,
 				C41FDD4E1C9D46A200D1AA19 /* MMMaterialDesignSpinner.m in Sources */,
